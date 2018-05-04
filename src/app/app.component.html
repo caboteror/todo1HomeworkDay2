@@ -1,3 +1,7 @@
 <div>
-  Hola Mundo, {{person}}
+  {{title}}
+  {{sum}}
 </div>
+
+
+ <app-list-component *ngFor="let user of users" [userId]="user.userId" [userId]="user.userId" [id]="user.id" [title]="user.title" [body]="user.body"></app-list-component>
